@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION "3.7.1")
+
+project("DamianBisBoids")
+
+include_directories(include)
+
+add_executable("${PROJECT_NAME}"
+  "src/kernel.cu"
+  "src/Boids.cpp"
+  "include/kernel.h"
+  "include/interactions.h"
+)
+
+install(TARGETS "${PROJECT_NAME}" DESTIONATION bin)
+install(FILES   
+  "src/kernel.cu"
+  "src/Boids.cpp"
+  "include/kernel.h"
+  "include/interactions.h"
+	DESTINATION src)

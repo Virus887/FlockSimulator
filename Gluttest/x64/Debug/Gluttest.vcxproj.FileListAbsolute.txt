@@ -1,0 +1,6 @@
+C:\Users\ginka\Desktop\Sem5\ProcesoryGraficzne\Glut test\Gluttest\Gluttest\x64\Debug\Gluttest.vcxproj.CopyComplete
+C:\Users\ginka\Desktop\Sem5\ProcesoryGraficzne\RybkiCUDA\Gluttest\Gluttest\x64\Debug\Gluttest.vcxproj.CopyComplete
+C:\Users\ginka\Desktop\Sem5\ProcesoryGraficzne\RybkiLastChance\Gluttest\Gluttest\x64\Debug\Gluttest.vcxproj.CopyComplete
+C:\Users\ginka\Desktop\Sem5\ProcesoryGraficzne\RybkiCUDA\BoidsDamianBis\Gluttest\x64\Debug\Gluttest.vcxproj.CopyComplete
+C:\Users\ginka\Desktop\rybki v2\Gluttest\x64\Debug\Gluttest.vcxproj.CopyComplete
+C:\Users\ginka\Desktop\Boids Damian Bis\RybkiCUDA\BoidsDamianBis\Gluttest\x64\Debug\Gluttest.vcxproj.CopyComplete

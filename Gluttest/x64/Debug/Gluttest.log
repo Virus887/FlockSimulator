@@ -1,0 +1,40 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(519,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Gluttest.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\ginka\Desktop\Sem5\ProcesoryGraficzne\RybkiCUDA\BoidsDamianBis\Gluttest>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\VCPKG\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\ginka\Desktop\Sem5\ProcesoryGraficzne\RybkiCUDA\BoidsDamianBis\Gluttest\kernel.cu" 
+  kernel.cu
+C:/Users/ginka/Desktop/Sem5/ProcesoryGraficzne/RybkiCUDA/BoidsDamianBis/Gluttest/kernel.cu(393): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
+C:/Users/ginka/Desktop/Sem5/ProcesoryGraficzne/RybkiCUDA/BoidsDamianBis/Gluttest/kernel.cu(394): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\thrust/iterator/iterator_adaptor.h(204): warning C4244: '+=': conversion from '__int64' to 'Base', possible loss of data
+          with
+          [
+              Base=unsigned int
+          ]
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\thrust/iterator/iterator_adaptor.h(202): note: while compiling class template member function 'void thrust::iterator_adaptor<thrust::counting_iterator<unsigned int,thrust::use_default,thrust::use_default,thrust::use_default>,Incrementable,Incrementable,thrust::any_system_tag,thrust::random_access_traversal_tag,Incrementable,__int64>::advance(__int64)'
+          with
+          [
+              Incrementable=unsigned int
+          ]
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\thrust/iterator/iterator_facade.h(171): note: see reference to function template instantiation 'void thrust::iterator_adaptor<thrust::counting_iterator<unsigned int,thrust::use_default,thrust::use_default,thrust::use_default>,Incrementable,Incrementable,thrust::any_system_tag,thrust::random_access_traversal_tag,Incrementable,__int64>::advance(__int64)' being compiled
+          with
+          [
+              Incrementable=unsigned int
+          ]
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\thrust/iterator/counting_iterator.h(132): note: see reference to class template instantiation 'thrust::iterator_adaptor<thrust::counting_iterator<unsigned int,thrust::use_default,thrust::use_default,thrust::use_default>,Incrementable,Incrementable,thrust::any_system_tag,thrust::random_access_traversal_tag,Incrementable,__int64>' being compiled
+          with
+          [
+              Incrementable=unsigned int
+          ]
+  C:/Users/ginka/Desktop/Sem5/ProcesoryGraficzne/RybkiCUDA/BoidsDamianBis/Gluttest/kernel.cu(424): note: see reference to class template instantiation 'thrust::counting_iterator<unsigned int,thrust::use_default,thrust::use_default,thrust::use_default>' being compiled
+  Boids.cpp
+C:\Users\ginka\Desktop\Sem5\ProcesoryGraficzne\RybkiCUDA\BoidsDamianBis\Gluttest\Boids.cpp(93,58): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\ginka\Desktop\Sem5\ProcesoryGraficzne\RybkiCUDA\BoidsDamianBis\Gluttest\Boids.cpp(114,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ginka\Desktop\Sem5\ProcesoryGraficzne\RybkiCUDA\BoidsDamianBis\Gluttest\Boids.cpp(140,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\ginka\Desktop\Sem5\ProcesoryGraficzne\RybkiCUDA\BoidsDamianBis\Gluttest\Boids.cpp(141,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\ginka\Desktop\Sem5\ProcesoryGraficzne\RybkiCUDA\BoidsDamianBis\Gluttest\Boids.cpp(167,24): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'time_t'
+C:\Users\ginka\Desktop\Sem5\ProcesoryGraficzne\RybkiCUDA\BoidsDamianBis\Gluttest\Boids.cpp(167,24): message : consider using '%lld' in the format string
+C:\Users\ginka\Desktop\Sem5\ProcesoryGraficzne\RybkiCUDA\BoidsDamianBis\Gluttest\Boids.cpp(167,24): message : consider using '%Id' in the format string
+C:\Users\ginka\Desktop\Sem5\ProcesoryGraficzne\RybkiCUDA\BoidsDamianBis\Gluttest\Boids.cpp(167,24): message : consider using '%I64d' in the format string
+C:\Users\ginka\Desktop\Sem5\ProcesoryGraficzne\RybkiCUDA\BoidsDamianBis\Gluttest\Boids.cpp(167,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     Creating library C:\Users\ginka\Desktop\Sem5\ProcesoryGraficzne\RybkiCUDA\BoidsDamianBis\x64\Debug\Boids.lib and object C:\Users\ginka\Desktop\Sem5\ProcesoryGraficzne\RybkiCUDA\BoidsDamianBis\x64\Debug\Boids.exp
+  Gluttest.vcxproj -> C:\Users\ginka\Desktop\Sem5\ProcesoryGraficzne\RybkiCUDA\BoidsDamianBis\x64\Debug\Boids.exe
