@@ -10,7 +10,7 @@ Separation – avoid crowding neighbours <br />
 Alignment – steer towards average heading of neighbours <br />
 Cohesion – steer towards average position of neighbours <br />
 
-User can manipulatestrenght of these 3 rules using keyboard buttons.
+User can manipulate the strenght of these 3 rules using keyboard buttons.
 What is more, boids avoid mouse cursor if user prass 'M' key.
 
 
