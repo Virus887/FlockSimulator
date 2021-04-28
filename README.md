@@ -1,6 +1,6 @@
 # FlockSimulator
 School OpenGL project. I used CUDA language to make all computations on GPU.<br />
-At the begginig i had 20 - 30FPS with 500 fishes before optimization. <br />
+At the beginnig i had 20 - 30FPS with 500 fishes before optimization. <br />
 Solution optimized for parallelism gave me 20FPS for 40k boids and 60FPS for 15k boids. <br />
 
 # About algorithm:
