@@ -1,3 +1,7 @@
+# See the result of my work below:
+
+https://youtu.be/YtEP7Gh4IgI
+
 # FlockSimulator
 School OpenGL project. I used CUDA language to make all computations on GPU.<br />
 At the beginnig i had 20 - 30FPS with 500 fishes before optimization. <br />
@@ -18,6 +22,3 @@ What is more, boids avoid mouse cursor if user press 'M' key.
 https://en.wikipedia.org/wiki/Flocking_(behavior)
 
 
-# See the result of my work below:
-
-https://youtu.be/YtEP7Gh4IgI
